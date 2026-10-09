@@ -1,0 +1,17 @@
+# Local private notes and source files
+/local/
+*.private.md
+*.draft.docx
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+secrets.*
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# IDE workspace settings
+.idea/
